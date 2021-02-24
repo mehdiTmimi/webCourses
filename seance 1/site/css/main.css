@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-style: unset;
+    box-sizing: border-box;
+}
+header
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+main{
+    display: flex;
+    margin: 50px 10px;
+}
+input{
+    display: block;
+    margin: 10px 0px;
+}
+.sec1{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec1 button{
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+    border :0px;
+    border-radius: 10px;
+}
+.sec1 button:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+.sec2{
+    width: 60%;
+}
+table{
+    width: 100%;
+    border-spacing: 0px;
+}
+table,tr,td,th{
+    border:1px solid gray;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+}

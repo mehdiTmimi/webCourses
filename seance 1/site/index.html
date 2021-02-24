@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seance 1 - app gestion des etudiants</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Gestion des étudiants</h1>
+    </header>
+    <main>
+        <section class="sec1">
+            <h3>Formulaire</h3>
+            <div>
+                <input id="inputId" type="text" placeholder="id">
+                <input id="inputNom" type="text" placeholder="nom">
+                <input id="inputPrenom" type="text" placeholder="prenom">
+                <input id="inputNote" type="text" placeholder="note">
+            </div>
+            <button onclick="valider()">Ajouter</button>
+        </section>
+        <section class="sec2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>nom</th>
+                        <th>prenom</th>
+                        <th>note</th>
+                        <th>options</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        Copyright @2021
+    </footer>
+</body>
+</html>
